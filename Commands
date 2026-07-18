@@ -5,7 +5,10 @@
 i) creaing from dockerfile 
 
   ->  docker build
+  - it creates directly from dockerfile
 
 ii) creating directly from docker command
 
    ->  docker commit
+   - It creates image from running stopprd container 
+   - saves the current state of container as new image 
