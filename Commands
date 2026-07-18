@@ -1,1 +1,11 @@
 ## Daily docker commands 
+
+##   There are two ways of creating docker images 
+
+i) creaing from dockerfile 
+
+  ->  docker build
+
+ii) creating directly from docker command
+
+   ->  docker commit
