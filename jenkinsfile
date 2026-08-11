@@ -14,7 +14,7 @@ pipeline {
    stage ('docker'){
      steps {
        script {
-
+  echo'container'
           
          }
        }
@@ -23,6 +23,7 @@ pipeline {
    stage ('IKP'){
      steps {
        script {
+  echo'cluster'
 
           
          }
