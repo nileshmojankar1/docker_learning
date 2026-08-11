@@ -10,5 +10,25 @@ pipeline {
             }
            }
          }
+
+   stage ('docker'){
+     steps {
+       script {
+
+          
+         }
+       }
+     }
+
+   stage ('IKP'){
+     steps {
+       script {
+
+          
+         }
+       }
+     }
+
+
       }
    }
